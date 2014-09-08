@@ -1,0 +1,12 @@
+Source: ros-hydro-pr2-pan-tilt
+Section: misc
+Priority: extra
+Maintainer: Devon Ash <dash@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-actionlib, ros-hydro-catkin, ros-hydro-geometry-msgs, ros-hydro-pr2-controllers-msgs, ros-hydro-rospy, ros-hydro-tf, ros-hydro-topic-tools
+Homepage: http://ros.org/wiki/pr2_pan_tilt
+Standards-Version: 3.9.2
+
+Package: ros-hydro-pr2-pan-tilt
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-actionlib, ros-hydro-geometry-msgs, ros-hydro-pr2-controllers-msgs, ros-hydro-rospy, ros-hydro-tf, ros-hydro-topic-tools
+Description: Pan Tilt app for the PR2 with android
