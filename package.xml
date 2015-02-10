@@ -1,6 +1,6 @@
 <package>
   <name>pr2_pan_tilt</name>
-  <version>1.0.1</version>
+  <version>1.0.2</version>
   <description>Pan Tilt app for the PR2 with android</description>
   <maintainer email="dash@clearpathrobotics.com">Devon Ash</maintainer>
 
